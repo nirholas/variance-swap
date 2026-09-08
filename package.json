@@ -1,0 +1,30 @@
+{
+  "name": "variance-swap",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Turns the exposure a liquidity provider already has into something they can actually sell.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirholas/variance-swap.git"
+  },
+  "homepage": "https://variance-swap.pages.dev",
+  "keywords": [
+    "uniswap",
+    "uniswap-v4",
+    "uniswap-hooks",
+    "defi",
+    "amm",
+    "solidity",
+    "derivatives",
+    "volatility",
+    "variance-swap",
+    "oracle-free",
+    "no-admin"
+  ],
+  "scripts": {
+    "build": "node web/build.mjs",
+    "contracts:build": "forge build",
+    "contracts:test": "forge test"
+  }
+}
